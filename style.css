@@ -1,0 +1,59 @@
+/* Reset beberapa margin dan padding default */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Atur Font Dan Warna Utama */
+body{
+    font-family: 'karla', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(187, 24%, 22%);
+}
+
+h1 {
+    color: hsl(169, 82%, 27%);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.contact-form {
+    width: 90%;
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: hsl(148, 38%, 91%);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+/* Gaya Untuk Elemen Input */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 5px;
+}
+
+/* Gaya untuk tombol kirim */
+button {
+    background-color: hsl(169, 82%, 27%);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: hsl(0, 66%, 54%);
+}
+
+/* Pesan error */
+.error-message {
+    color: hsl(0, 66%, 54%); /* Merah */
+    font-size: 12px;
+    margin-top: 5px;
+}
